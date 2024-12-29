@@ -14,23 +14,24 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-    padding: 4rem 2rem;
+    padding: 2rem;
+    overflow-x: hidden;
 }
 
 .page-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 4rem;
     width: 100%;
-    max-width: 1600px;
-    padding: 3rem;
+    max-width: 1400px;
+    padding: 2rem;
+    margin: 0 auto;
 }
 
 .left-image-container {
-    flex: 0 0 auto;
-    max-width: 400px;
-    margin-right: 2rem;
+    flex: 0 0 350px;
+    margin-right: 1rem;
 }
 
 .left-image {
@@ -48,14 +49,13 @@ body {
 
 .main-container {
     text-align: center;
-    flex: 1;
-    max-width: 800px;
+    flex: 0 1 600px;
+    padding: 0 2rem;
 }
 
 .image-container {
-    flex: 0 0 auto;
-    max-width: 400px;
-    margin-left: 2rem;
+    flex: 0 0 350px;
+    margin-left: 1rem;
 }
 
 .side-image {
@@ -241,4 +241,17 @@ footer p {
     100% {
         box-shadow: 0 0 20px rgba(255,255,255,0.1);
     }
+}
+
+.papara-info {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+    opacity: 0.9;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    display: inline-block;
 } 
