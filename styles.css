@@ -14,16 +14,17 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+    padding: 4rem 2rem;
 }
 
 .page-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
+    gap: 6rem;
     width: 100%;
     max-width: 1400px;
-    padding: 2rem;
+    padding: 3rem;
 }
 
 .main-container {
@@ -35,6 +36,7 @@ body {
 .image-container {
     flex: 0 0 auto;
     max-width: 400px;
+    margin-left: 2rem;
 }
 
 .side-image {
@@ -50,32 +52,43 @@ body {
 }
 
 header {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 header h1 {
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
+    font-size: 4rem;
+    margin-bottom: 2rem;
     text-shadow: 2px 2px 4px rgba(255,255,255,0.1);
+    letter-spacing: 2px;
 }
 
 header p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     opacity: 0.9;
+    margin-top: 1.5rem;
+}
+
+.content {
+    margin: 5rem 0;
+}
+
+.button-container {
+    margin: 3rem 0;
 }
 
 .pay-btn {
     background-color: #ffffff;
     color: #000000;
     border: none;
-    padding: 1.5rem 3rem;
-    font-size: 1.5rem;
+    padding: 2rem 4rem;
+    font-size: 1.8rem;
     border-radius: 50px;
     cursor: pointer;
     transition: transform 0.3s, box-shadow 0.3s;
     font-weight: 600;
     text-transform: uppercase;
     box-shadow: 0 4px 15px rgba(255,255,255,0.2);
+    letter-spacing: 1px;
 }
 
 .pay-btn:hover {
@@ -85,10 +98,10 @@ header p {
 }
 
 .social-links {
-    margin: 2rem 0;
+    margin: 4rem 0;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 3.5rem;
 }
 
 .social-links a {
@@ -96,16 +109,18 @@ header p {
     text-decoration: none;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
     transition: all 0.3s;
+    padding: 1rem;
 }
 
 .social-links a i {
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .social-links a span {
     font-weight: 500;
+    letter-spacing: 0.5px;
 }
 
 .social-links .linkedin {
@@ -136,21 +151,38 @@ header p {
 }
 
 footer {
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 footer p {
     opacity: 0.7;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    margin-top: 2rem;
 }
 
 @media (max-width: 1200px) {
     .page-container {
         flex-direction: column;
-        gap: 2rem;
+        gap: 4rem;
+        padding: 2rem;
     }
 
     .image-container {
         max-width: 300px;
+        margin-left: 0;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    .pay-btn {
+        padding: 1.5rem 3rem;
+        font-size: 1.5rem;
+    }
+
+    .social-links {
+        flex-direction: column;
+        gap: 2rem;
     }
 } 
