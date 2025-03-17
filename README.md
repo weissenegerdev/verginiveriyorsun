@@ -1,6 +1,6 @@
 # Vergini Veriyorsun
 
-Bu proje, eğlenceli bir vergi ödeme deneyimi sunan web sitesidir.
+Bu proje tamamen eğlence amaçlı hazırlanmıştır. Herhangi bir kişi, kurum veya makamı hedef alma amacı taşımamaktadır. İçerikler mizahi ve yaratıcı bir bakış açısıyla oluşturulmuştur.
 
 ## Özellikler
 
